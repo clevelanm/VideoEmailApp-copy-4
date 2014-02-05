@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CBA1B1F2188903CB00E5DAC7 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA1B1F1188903CB00E5DAC7 /* Singleton.m */; };
-		CBA3BACF1895F918000641B2 /* ALToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA3BACE1895F918000641B2 /* ALToastView.m */; };
+		CBAA069F18A2257F006926C6 /* ALToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAA069E18A2257F006926C6 /* ALToastView.m */; };
 		CBAAE90E18886C110016BC73 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBAAE90D18886C110016BC73 /* AssetsLibrary.framework */; };
 		CBD7643018A02B5600E4CB3C /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD7642F18A02B5600E4CB3C /* ThirdViewController.m */; };
 		CBDF3174187E7DC100C7FB38 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBDF3173187E7DC100C7FB38 /* MessageUI.framework */; };
@@ -45,8 +45,8 @@
 /* Begin PBXFileReference section */
 		CBA1B1F0188903CB00E5DAC7 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
 		CBA1B1F1188903CB00E5DAC7 /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
-		CBA3BACD1895F8F8000641B2 /* ALToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALToastView.h; path = "../../../../Downloads/ALToastView-master/ALToastView.h"; sourceTree = "<group>"; };
-		CBA3BACE1895F918000641B2 /* ALToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALToastView.m; path = "../../../../Downloads/ALToastView-master/ALToastView.m"; sourceTree = "<group>"; };
+		CBAA069E18A2257F006926C6 /* ALToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALToastView.m; sourceTree = "<group>"; };
+		CBAA06A018A225B2006926C6 /* ALToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALToastView.h; sourceTree = "<group>"; };
 		CBAAE90D18886C110016BC73 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		CBD7642E18A02B5600E4CB3C /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		CBD7642F18A02B5600E4CB3C /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
@@ -157,8 +157,8 @@
 				CBF2E567187A5E6200B565CC /* Supporting Files */,
 				CBA1B1F0188903CB00E5DAC7 /* Singleton.h */,
 				CBA1B1F1188903CB00E5DAC7 /* Singleton.m */,
-				CBA3BACD1895F8F8000641B2 /* ALToastView.h */,
-				CBA3BACE1895F918000641B2 /* ALToastView.m */,
+				CBAA06A018A225B2006926C6 /* ALToastView.h */,
+				CBAA069E18A2257F006926C6 /* ALToastView.m */,
 			);
 			path = VideoEmailApp;
 			sourceTree = "<group>";
@@ -293,11 +293,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBF2E57A187A5E6200B565CC /* SecondViewController.m in Sources */,
-				CBA3BACF1895F918000641B2 /* ALToastView.m in Sources */,
 				CBF2E571187A5E6200B565CC /* AppDelegate.m in Sources */,
 				CBA1B1F2188903CB00E5DAC7 /* Singleton.m in Sources */,
 				CBF2E577187A5E6200B565CC /* FirstViewController.m in Sources */,
 				CBF2E56D187A5E6200B565CC /* main.m in Sources */,
+				CBAA069F18A2257F006926C6 /* ALToastView.m in Sources */,
 				CBD7643018A02B5600E4CB3C /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
